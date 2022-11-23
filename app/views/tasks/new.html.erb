@@ -2,6 +2,7 @@
   <h3>スケジュール新規作成</h3>
 
   <%= form_with model: @task do |f| %>
+   <%= render 'layouts/error_messages', model: f.object %>
   <table>
     <tr>
       <th><%=f.label:title,"タイトル" %></th>
