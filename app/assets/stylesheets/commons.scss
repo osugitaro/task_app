@@ -1,0 +1,70 @@
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+header{
+  background-color:#c52f24;
+  color:white;
+}
+
+header h1{
+  padding: 10px;
+}
+
+
+footer{
+  margin-top: auto;
+  padding: 10px;
+  background-color: #c52f24;
+  color: white;
+}
+
+table{
+  width: 100%;
+}
+
+table th{
+  background-color: #ffdfdf;
+}
+
+table td{
+  background-color: #f1c8c861;
+}
+
+table th,
+table td{
+  padding: 10px;
+}
+
+table,  
+table th,
+table td{
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.TaskContent{
+  margin: 50px 15px;
+}
+
+.TaskContent h3{
+  margin-top: 0;
+}
+
+.notice, .error_message{
+  background-color: #98ecaa7a;
+  border: 2px solid #5cd075;
+  text-align:center;
+  width: 400px;
+  padding:15px;
+}
+
+.error_message ul{
+  list-style: none;
+}
+
+
